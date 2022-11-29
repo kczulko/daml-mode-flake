@@ -37,7 +37,7 @@
       overlays = rec {
         default = daml-mode;
         daml-mode = final: prev: {
-          daml-mode = prev.callPackage daml-mode-recipe {};
+          daml-mode = final.callPackage daml-mode-recipe {};
         };
       };
     } //
