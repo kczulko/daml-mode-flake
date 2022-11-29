@@ -2,9 +2,9 @@
 
 This repository contains a nix flake description for daml-mode package build based on [bartfailt's daml-mode repo](https://github.com/bartfailt/daml-mode).
 
-# usage
+## usage
 
-## via overlay (recommended)
+### via overlay (recommended)
 
 ```nix
 {
@@ -34,7 +34,7 @@ This repository contains a nix flake description for daml-mode package build bas
 }
 ```
 
-## via flake output
+### via flake output
 
 This option is not recommended since it's rather a dummy package (build with specific/hardcoded emacs version).
 
