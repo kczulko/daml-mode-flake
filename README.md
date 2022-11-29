@@ -1,6 +1,6 @@
 # nix recipe for emacs' daml-mode
 
-This repository contains a nix flake description for daml-mode package build based on [bartfailt's daml-mode repo](www.github.com/bartfailt/daml-mode).
+This repository contains a nix flake description for daml-mode package build based on [bartfailt's daml-mode repo](https://github.com/bartfailt/daml-mode).
 
 # usage
 
