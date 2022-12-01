@@ -9,7 +9,7 @@ This repository contains a nix flake description for daml-mode package build bas
 ```nix
 {
   inputs = {
-    daml-mode.url = "githu:kczulko/daml-mode-emacs-nix";
+    daml-mode.url = "githu:kczulko/daml-mode-flake";
     nixpkgs.url = "github:nixos/nixpkgs";
   };
 
@@ -40,7 +40,7 @@ This option is not recommended since it's rather a dummy package (build with spe
 
 ```nix
 {
-    inputs.daml-mode.url = "githu:kczulko/daml-mode-emacs-nix";
+    inputs.daml-mode.url = "githu:kczulko/daml-mode-flake";
     outputs = { self, daml-mode, ... }: {
       # ...
       environment.systemPackages = [
