@@ -14,6 +14,8 @@
       trivialBuild {
         inherit pname;
 
+        version = "0.0.1";
+
         packageRequires = [ haskell-mode lsp-mode ];
             
         src = fetchFromGitHub {
