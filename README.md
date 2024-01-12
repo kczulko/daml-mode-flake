@@ -1,3 +1,7 @@
+# OBSOLETE
+
+Since November 2023 daml-(mode|lsp) got published to [melpa](https://melpa.org/#/?q=daml), which means this repository is being archived.
+
 # nix recipe for emacs' daml-mode
 
 This repository contains a nix flake description for daml-mode package build based on [bartfailt's daml-mode repo](https://github.com/bartfailt/daml-mode).
